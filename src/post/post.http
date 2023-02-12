@@ -1,0 +1,13 @@
+###
+POST http://localhost:3000/post
+Content-Type: application/json/
+
+{
+	"title": "Deneme",
+	"body": "salix's first blog post",
+	"createDate": "19/12/2022"
+}
+
+###
+GET http://localhost:3000/post
+Content-Type: application/json
